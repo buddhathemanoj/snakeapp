@@ -1,8 +1,6 @@
-// Homepage.js
 import React from "react";
 import { View, Text, TouchableOpacity, StyleSheet } from "react-native";
 import { useNavigation } from "@react-navigation/native";
-import SnakeGame from "./SnakeGame"; // Adjust the path accordingly
 
 const Homepage = () => {
   const navigation = useNavigation();
@@ -25,6 +23,7 @@ const Homepage = () => {
 
 const styles = StyleSheet.create({
   container: {
+    backgroundColor: "#fff",
     flex: 1,
     justifyContent: "center",
     alignItems: "center",

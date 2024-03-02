@@ -14,9 +14,9 @@ import {
   faArrowRight,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-native-fontawesome";
+
 const SnakeGame = () => {
   const generateFoodPosition = () => {
-    // Generate a random position for the food
     const x = Math.floor(Math.random() * gridSize);
     const y = Math.floor(Math.random() * gridSize);
     return { x, y };
@@ -25,7 +25,7 @@ const SnakeGame = () => {
   const [food, setFood] = useState(generateFoodPosition());
   const [direction, setDirection] = useState("RIGHT");
   const [score, setScore] = useState(0);
-  const gridSize = 20; // Number of cells in each row/column
+  const gridSize = 10;
   const cellSize = Dimensions.get("window").width / gridSize;
 
   // Define the function before using it
@@ -74,7 +74,7 @@ const SnakeGame = () => {
   }, [snake, food, direction, score]);
 
   useEffect(() => {
-    const gameInterval = setInterval(updateGame, 200); 
+    const gameInterval = setInterval(updateGame, 200);
 
     return () => clearInterval(gameInterval);
   }, [updateGame]);
@@ -138,7 +138,6 @@ const SnakeGame = () => {
             onPress={() => handleDirectionChange("UP")}
           >
             <FontAwesomeIcon icon={faArrowUp} size={24} color="white" />
-         
           </TouchableOpacity>
         </View>
         <View style={styles.horizontalButtons}>
@@ -189,8 +188,8 @@ const styles = StyleSheet.create({
     flexDirection: "row",
   },
   cell: {
-    width: Dimensions.get("window").width / 20,
-    height: Dimensions.get("window").width / 20,
+    width: Dimensions.get("window").width / 40,
+    height: Dimensions.get("window").width / 40,
     borderWidth: 1,
   },
   snakeSegment: {
@@ -224,7 +223,7 @@ const styles = StyleSheet.create({
     borderRadius: 5,
   },
   emptySpace: {
-    width: 24, // Adjust as needed for the desired gap
+    width: 24,
   },
 });
 

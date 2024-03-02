@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "848848176106",
+    "firebase_url": "https://openai-chatbot-5abb9-default-rtdb.firebaseio.com",
+    "project_id": "openai-chatbot-5abb9",
+    "storage_bucket": "openai-chatbot-5abb9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:848848176106:android:dd233f3e548ee7fff92893",
+        "android_client_info": {
+          "package_name": "com.manoj.game"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "848848176106-mcp4ikkflem45ec38jgghugqfe47732l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2OCat7GFcrpUbdfG9nN__KFbtkfqvGpw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "848848176106-mcp4ikkflem45ec38jgghugqfe47732l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

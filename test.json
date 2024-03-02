@@ -1,0 +1,51 @@
+"User": {
+  "session": {
+    "access_token": "eyJhbGciOiJIUzI1NiIsImtpZCI6ImYraXhxMWJlZExMekROWDMiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzA3NTc0ODYyLCJpYXQiOjE3MDc1NzEyNjIsImlzcyI6Imh0dHBzOi8vbnFlaWxmZXJnbnJjZ3pxdmdtbWguc3VwYWJhc2UuY28vYXV0aC92MSIsInN1YiI6ImFiODYzZTRjLWY3NWYtNGViMi04MjA4LWNjYWUzMTgxZDQwMiIsImVtYWlsIjoibWFub2pAZGlnaXNhaWxvci5jb20iLCJwaG9uZSI6IiIsImFwcF9tZXRhZGF0YSI6eyJwcm92aWRlciI6ImVtYWlsIiwicHJvdmlkZXJzIjpbImVtYWlsIl19LCJ1c2VyX21ldGFkYXRhIjp7fSwicm9sZSI6ImF1dGhlbnRpY2F0ZWQiLCJhYWwiOiJhYWwxIiwiYW1yIjpbeyJtZXRob2QiOiJwYXNzd29yZCIsInRpbWVzdGFtcCI6MTcwNzU3MTI2Mn1dLCJzZXNzaW9uX2lkIjoiMTEwYjBkMWUtYTRkYS00ZTRiLThhN2ItZmMzZDdiNzAxNmNkIn0.dn6-C7tdQKlWnPhM64cB5B2B5qkZ71lvAeRTAjRKDhw",
+    "expires_at": 1707574862,
+    "expires_in": 3600,
+    "refresh_token": "N3rTZxomuD8_F6qx9QaNQg",
+    "token_type": "bearer",
+    "user": {
+      "app_metadata": [Object
+      ],
+      "aud": "authenticated",
+      "confirmation_sent_at": "2024-02-10T13:09:06.836889Z",
+      "confirmed_at": "2024-02-10T13:10:23.158412Z",
+      "created_at": "2024-02-10T13:09:06.829895Z",
+      "email": "manoj@digisailor.com",
+      "email_confirmed_at": "2024-02-10T13:10:23.158412Z",
+      "id": "ab863e4c-f75f-4eb2-8208-ccae3181d402",
+      "identities": [Array
+      ],
+      "last_sign_in_at": "2024-02-10T13:21:02.484142801Z",
+      "phone": "",
+      "role": "authenticated",
+      "updated_at": "2024-02-10T13:21:02.485945Z",
+      "user_metadata": [Object
+      ]
+    }
+  },
+  "user": {
+    "app_metadata": {
+      "provider": "email",
+      "providers": [Array
+      ]
+    },
+    "aud": "authenticated",
+    "confirmation_sent_at": "2024-02-10T13:09:06.836889Z",
+    "confirmed_at": "2024-02-10T13:10:23.158412Z",
+    "created_at": "2024-02-10T13:09:06.829895Z",
+    "email": "manoj@digisailor.com",
+    "email_confirmed_at": "2024-02-10T13:10:23.158412Z",
+    "id": "ab863e4c-f75f-4eb2-8208-ccae3181d402",
+    "identities": [
+      [Object
+      ]
+    ],
+    "last_sign_in_at": "2024-02-10T13:21:02.484142801Z",
+    "phone": "",
+    "role": "authenticated",
+    "updated_at": "2024-02-10T13:21:02.485945Z",
+    "user_metadata": {}
+  }
+}
